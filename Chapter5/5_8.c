@@ -13,5 +13,17 @@ int main(void)
         f2 = f3;
     }
     
+    //改进算法
+    int f4=1, f5=1;
+    for (i = 1; i <= 20; i++)
+    {
+        printf("%12d %12d", f4, f5);
+        if(i%2==0)
+        {
+            printf("\n");
+        }
+        f4 = f4+f5;
+        f5 = f4+f5;
+    }
     return 0;
 }
