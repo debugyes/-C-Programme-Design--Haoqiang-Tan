@@ -8,7 +8,7 @@ int main(void)
     for (i = 0; i <= 38; i++)
     {
         f3 = f1+f2;
-        printf("%d:%d\n", j++,f3);
+        printf("%12d\n", j++,f3);
         f1 = f2;
         f2 = f3;
     }
