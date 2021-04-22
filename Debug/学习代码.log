@@ -1,2 +1,4 @@
-﻿  6_2.c
-  学习代码.vcxproj -> C:\Users\megumi\Desktop\Code\Software Development\CLearnForExam\Debug\学习代码.exe
+﻿  6_4.c
+C:\develop\CLearnForExam\6_4.c(5,18): warning C4101: “j”: 未引用的局部变量
+C:\develop\CLearnForExam\6_4.c(5,15): warning C4101: “i”: 未引用的局部变量
+  学习代码.vcxproj -> C:\develop\CLearnForExam\Debug\学习代码.exe
