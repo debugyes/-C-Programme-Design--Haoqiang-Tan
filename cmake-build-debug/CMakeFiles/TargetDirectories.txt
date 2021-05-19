@@ -1,0 +1,3 @@
+/Users/megumi/develop/CLearnForExam/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/megumi/develop/CLearnForExam/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/megumi/develop/CLearnForExam/cmake-build-debug/CMakeFiles/CLearnFroExam.dir
