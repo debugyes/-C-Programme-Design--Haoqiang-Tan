@@ -6,7 +6,7 @@ int main(void)
 	p = a;
 	for (int i = 0; i < 10; i++)
 	{
-		scanf("%d", ++p);
+		scanf("%d", p++);
 	}
 	p = a;
 	for (int i = 0; i < 10; i++, p++)
