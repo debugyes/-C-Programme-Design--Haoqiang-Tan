@@ -4,7 +4,8 @@ void function(int* p, int n);
 void output(int* p, int n);
 int main(void)
 {
-	int a[10] = { 20, 30, 10, 50, 60, 100, 0, 80, 40, 110 };
+	//int a[10] = { 20, 30, 10, 50, 60, 100, 0, 80, 40, 110 };
+	int a[10] = { 32, 24, 56, 78, 1, 98, 46, 44, 29, 6 };
 
 	//input(a, 10);
 	function(a, 10);
@@ -28,23 +29,25 @@ void function(int* p, int n)
 	max = min = q++;
 	for (int i = 1; i < n; i++, q++)
 	{
-		if (*q > *max)
-		{
-			max = q;
-		}
 		if (*q < *min)
 		{
 			min = q;
 		}
 	}
-	//printf("%d %d", *max, *min);
 	t = *min;
-	*min = *p;
-	*p = t;
-	
+	*min = *q;
+	*q = t;
+
+	for (int i = 1; i < n; i++, q++)
+	{
+		if (*q > *max)
+		{
+			max = q;
+		}
+	}
 	t = *max;
-	*max = *(p + n - 1);
-	*(p + n - 1) = t;
+	*max = q[9];
+	q[9] = t;
 }
 
 void output(int* p, int n)
